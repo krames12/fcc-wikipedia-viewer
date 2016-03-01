@@ -1,6 +1,6 @@
 var wikiData = {};
 var searchInfo = "physics";
-
+var results = $(".results-container");
 
 $.ajax({
   url: 'https://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=' + searchInfo + '&limit=10&namespace=0&callback=?',
