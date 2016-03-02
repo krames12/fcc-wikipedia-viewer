@@ -27,4 +27,5 @@ function getAjax(){
        console.log("Request Failed with a status of " + xhr.status)
       },
   });
+    $('.search-container').addClass('search-used');
 }

@@ -6,6 +6,16 @@ main {
 
 a, a:hover, a:visited {
 	text-decoration: none;
+  color: black;
+}
+
+.search-container {
+  margin-top: 20%;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-used {
+  margin-top: 5%;
 }
 
 .search-container a{
@@ -14,6 +24,13 @@ a, a:hover, a:visited {
 	height: 100%;
 	text-align: center;
 	margin: auto;
+}
+
+.search-field {
+  height: 40px;
+  font-size: 1.2em;
+  border: black 3px solid;
+  border-radius: 10px;
 }
 
 .search-box {
