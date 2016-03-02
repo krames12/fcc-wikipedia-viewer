@@ -11,13 +11,19 @@
 
 <body>
 
-<main>
-  <a href="http://en.wikipedia.org/wiki/Special:Random" alt="Random Wikipedia Article" target="_blank">Click here for a random Wikipedia article.</a>
-  <input type='search' />
+  <main>
+  	<div class="search-container">
+    	<a href="http://en.wikipedia.org/wiki/Special:Random" alt="Random Wikipedia Article" target="_blank">Click here for a random Wikipedia article.</a>
+    	<div class='search-box'>
+    		<form action='#' onsubmit='getAjax()'>
+   				<input type='search' class='center-block search-field' placeholder="Search on Wikipedia" />
+   			</form>
+   		</div>
+  	</div>
 
-  <div class="results-container"></div>
+    <div class="results-container"></div>
 
-</main>
+  </main>
 
  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
  <script src="js/scripts.js"></script>
