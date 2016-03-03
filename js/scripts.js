@@ -18,7 +18,7 @@ function getAjax(){
      for (var i = 0; i < data[1].length; i++){
        //Grabs results and creates a new div for each.
         results.append('<a href="' + data[3][i] + //article link
-        '" target="_blank"><div class="result"><p>' +
+        '" target="_blank"><div class="result"><p class="article-title">' +
         data[1][i] + '</p><p>' + //article title
         data[2][i] + '</div></a>'); //article description
        }

@@ -6,6 +6,8 @@
   <title>Wikipedia Viewer</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -13,7 +15,8 @@
 
   <main>
   	<div class="search-container">
-    	<a href="http://en.wikipedia.org/wiki/Special:Random" alt="Random Wikipedia Article" target="_blank">Click here for a random Wikipedia article.</a>
+      <h1 class="text-center">Wikipedia Viewer</h1>
+    	<a href="http://en.wikipedia.org/wiki/Special:Random" alt="Random Wikipedia Article" class="random-text" target="_blank">Random Article <span class="fa fa-random"</span></a>
     	<div class='search-box'>
     		<form action='#' onsubmit='getAjax()'>
    				<input type='search' class='center-block search-field' placeholder="Search on Wikipedia" />
@@ -22,6 +25,11 @@
   	</div>
 
     <div class="results-container"></div>
+
+    <footer>
+      <p>This project by <a href="blog.nickkramer.me">Nick Kramer</a>.</p>
+      <p><a href="https://twitter.com/krames12" alt="Nick on twitter" target="_blank"><span class="fa fa-twitter fa-2x twitter"></span></a><a href="https://github.com/krames12/fcc-wikipedia-viewer" alt="This project on Github" target="_blank"><span class="fa fa-github fa-2x github"></span></a></p>
+    </footer>
 
   </main>
 
