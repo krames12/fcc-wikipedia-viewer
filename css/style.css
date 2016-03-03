@@ -1,3 +1,7 @@
+body {
+  background-color: white;
+}
+
 main {
   width: 90%;
   height: 100%;
@@ -15,7 +19,7 @@ a, a:hover, a:visited, a:active, a:focus {
 }
 
 .search-used {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 50px;
 }
 
@@ -46,6 +50,7 @@ a, a:hover, a:visited, a:active, a:focus {
 
 .results-container {
 	width: 80%;
+  max-width: 960px;
 	margin: auto;
 }
 .result {
